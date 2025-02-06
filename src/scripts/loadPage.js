@@ -1,6 +1,6 @@
 const pages = {
-  'home':  'assets/pages/home.html',
-  'about': 'assets/pages/about.html'
+  'home':  './public/assets/pages/home.html',
+  'about': './public/assets/pages/about.html'
 }
 
 function loadPage(page) {
