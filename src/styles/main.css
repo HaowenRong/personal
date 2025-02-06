@@ -18,6 +18,8 @@ body {
 
   padding: 3vmin;
   box-sizing: border-box;
+
+  overflow-y: auto;
 }
 .main .header {
   display: flex;
@@ -34,11 +36,38 @@ body {
   font-weight: 600;
 }
 .main .content {
-  height: 100%;
+  height: auto;
   padding: 1vmax;
   box-sizing: border-box;
 }
 .main .content p {
+  font-size: 1.5rem;
+}
+.main .footer {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  height: 4rem;
+  border-top: 1px solid var(--primary-color);
+  padding: 1vmin;
+  box-sizing: border-box;
+}
+.main .footer .socials-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.main .footer h1 {
+  all: unset;
+  color: inherit;
+  font-size: 2rem;
+  margin-top: auto;
+  font-weight: 600;
+}
+.main .footer p {
+  all: unset;
   font-size: 1.5rem;
 }
 
@@ -137,6 +166,15 @@ nav .bar .buttons button h3 {
   all: unset;
   color: inherit;
   font-size: 2.8vmin;
+  font-weight: bold;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--link-color);
   font-weight: bold;
 }
 
