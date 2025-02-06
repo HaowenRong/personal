@@ -1,12 +1,18 @@
+
+const path = './public/assets/pages/'
 const pages = {
-  'home':  './public/assets/pages/home.html',
-  'about': './public/assets/pages/about.html'
+  'home':     path + 'home.html',
+  'projects': path + 'projects.html',
+  'blog':     path + 'blog.html',
+  'about':    path + 'about.html'
 }
 
 function loadPage(page) {
+  console.log(pages[page])
   fetch(pages[page])
     .then(response => response.text())
     .then(text => {
+      console.log(text)
       document.getElementById('main').innerHTML = text;
 
       const buttons = Array.from(document.getElementById('buttons').children);
