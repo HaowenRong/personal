@@ -51,6 +51,8 @@ body {
   border-top: 1px solid var(--primary-color);
   padding: 1vmin;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 .main .footer .socials-container {
   width: 100%;
@@ -63,12 +65,11 @@ body {
   all: unset;
   color: inherit;
   font-size: 2rem;
-  margin-top: auto;
   font-weight: 600;
 }
 .main .footer p {
   all: unset;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 nav {
@@ -193,5 +194,17 @@ a {
     border-top: 2px solid var(--primary-color);
     border-radius: 0px;
     box-sizing: border-box;
+  }
+  .main .header h1 {
+    font-size: 1.5rem;
+  }
+  .main .footer h1 {
+    font-size: 1.5rem;
+  }
+  .main .content p {
+    font-size: 1.2rem;
+  }
+  .main .footer p {
+    font-size: 1.1rem;
   }
 }
