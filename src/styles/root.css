@@ -1,7 +1,13 @@
 :root {
-  --primary-color: rgba(69, 71, 75, 1);
-  --background-color: #FEFBF9;
-  --accent-color: #EEECEA;
+  --primary-color: rgb(50, 51, 55);
+  --background-color: #dfdad6;
+  --accent-color: #FEFBF9;
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
+
+  --content-width: 1000px;
+}
+
+@media (max-width: 600px) {
+
 }

@@ -3,7 +3,6 @@ const path = './public/assets/pages/'
 const pages = {
   'home':     path + 'home.html',
   'projects': path + 'projects.html',
-  'blog':     path + 'blog.html',
   'about':    path + 'about.html'
 }
 
