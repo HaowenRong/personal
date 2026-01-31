@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Archivo-Regular', sans-serif;
-  background-color: var(--accent-color);
+  background-color: var(--background-color);
   display: flex;
   justify-content: center;
 }
@@ -12,22 +12,20 @@ nav {
   height: 64px;
   width: 100%;
   justify-content: center;
-  box-shadow: 0 10px 10px var(--background-color);
+  box-shadow: 0 4px 10px var(--shadow-color);
   padding: 10px;
   z-index: 10;
-  background-color: var(--accent-color);
-}
-
-nav .bar {
+  background-color: var(--background-color);
+} nav .bar {
   display: flex;
   gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   box-sizing: border-box;
   width: var(--content-width);
   justify-content: space-between;
   align-items: center;
-}
-
-nav .bar .title-card {
+} nav .bar .title-card {
   display: flex;
   height: 100%;
   width: auto;
@@ -36,35 +34,34 @@ nav .bar .title-card {
   justify-content: center;
   align-items: center;
   color: var(--primary-color);
-}
-nav .bar .title-card h2 {
+} nav .bar .title-card h2 {
   all: unset;
-  font-size: 3vmin;
+  font-size: 24px;
   color: inherit;
+
   user-select:           none;
   -webkit-touch-callout: none;
   -webkit-user-select:   none;
   -khtml-user-select:    none;
   -moz-user-select:      none;
   -ms-user-select:       none;
-}
-
-nav .bar .buttons {
+} nav .bar .buttons {
   display: flex;
   gap: 10px;
   height: 80%;
   width: auto;
   justify-content: space-between;
-}
-nav .bar .buttons button {
+} nav .bar .buttons button {
   all: unset;
   display: flex;
   width: 120px;
   justify-content: center;
   align-items: center;
   color: var(--primary-color);
+  background-color: var(background-color);
   border-radius: 100px;
-  
+  transition: background-color 0.15s ease;
+
   user-select:           none;
   -webkit-touch-callout: none;
   -webkit-user-select:   none;
@@ -73,9 +70,10 @@ nav .bar .buttons button {
   -ms-user-select:       none;
 } nav .bar .buttons button:hover {
   cursor: pointer;
-  background-color: bisque;
-}
-nav .bar .buttons button h3 {
+  background-color: var(--accent-color);
+  color: aliceblue;
+  transition: color 0.15s ease;
+} nav .bar .buttons button h3 {
   all: unset;
   color: inherit;
   font-size: 1.2rem;
@@ -85,8 +83,37 @@ nav .bar .buttons button h3 {
 .main {
   display: flex;
   margin-top: 104px;
-  background-color: var(--background-color);
   flex-direction: column;
   height: 100svh;
   width: var(--content-width);
+  gap: 30px;
+  padding: 20px;
+  padding-top: 0;
+} .main .header {
+  display: flex;
+  height: auto;
+  border-bottom: 2px solid var(--primary-color);
+  box-sizing: border-box;
+} .main .header h1 {
+  all: unset;
+  color: inherit;
+  font-size: 42px;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+.main .content p {
+  font-weight: bold;
+}
+
+
+
+
+@media (max-width: 600px) {
+  nav {
+    bottom: 0;
+    box-shadow: 0 -4px 10px var(--shadow-color);
+  }
+  .main {
+    margin-top: 30px;
+  }
 }

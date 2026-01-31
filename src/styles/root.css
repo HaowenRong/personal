@@ -1,7 +1,8 @@
 :root {
   --primary-color: rgb(50, 51, 55);
-  --background-color: #dfdad6;
-  --accent-color: #FEFBF9;
+  --background-color: #FEFBF9;
+  --accent-color: rgb(73, 114, 190);
+  --shadow-color: rgba(50, 51, 55, 0.2);
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
 
