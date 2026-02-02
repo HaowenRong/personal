@@ -20,6 +20,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 } nav .bar .title-card {
+  all: unset;
   display: flex;
   height: 100%;
   width: auto;
@@ -28,6 +29,9 @@ nav {
   justify-content: center;
   align-items: center;
   color: var(--primary-color);
+} nav .bar .title-card:hover {
+  cursor: pointer;
+
 } nav .bar .title-card h2 {
   all: unset;
   font-size: 24px;
