@@ -1,12 +1,13 @@
 
-const path = './public/assets/pages/'
+const pagesPath = './public/assets/pages/'
 const pages = {
-  'home':     path + 'home.html',
-  'projects': path + 'projects.html',
-  'about':    path + 'about.html'
+  'home':     pagesPath + 'home.html',
+  'projects': pagesPath + 'projects.html',
+  'about':    pagesPath + 'about.html'
 }
 
 function loadPage(page) {
+  return
   console.log(pages[page])
   fetch(pages[page])
     .then(response => response.text())

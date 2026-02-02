@@ -50,7 +50,7 @@ nav {
   height: 80%;
   width: auto;
   justify-content: space-between;
-} nav .bar .buttons button {
+} nav .bar .buttons a {
   all: unset;
   display: flex;
   width: 120px;
@@ -67,12 +67,12 @@ nav {
   -khtml-user-select:    none;
   -moz-user-select:      none;
   -ms-user-select:       none;
-} nav .bar .buttons button:hover {
+} nav .bar .buttons a:hover {
   cursor: pointer;
   background-color: var(--accent-color);
   color: aliceblue;
   transition: color 0.15s ease;
-} nav .bar .buttons button h3 {
+} nav .bar .buttons a h3 {
   all: unset;
   color: inherit;
   font-size: 20px;
