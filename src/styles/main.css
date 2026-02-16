@@ -128,7 +128,7 @@ nav {
   color: var(--primary-color);
   transition:
     background-color 0.15s ease,
-    shadow 0.15s ease,
+    box-shadow 0.15s ease,
     color 0.15s ease;
 } .footer .pill:hover {
   cursor: pointer;
