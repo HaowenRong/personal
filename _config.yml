@@ -1,0 +1,8 @@
+title: My Personal Site
+description: A personal static site to talk about myself and display my projects
+baseurl: ""
+url: ""
+
+collections:
+  projects:
+    output: true
