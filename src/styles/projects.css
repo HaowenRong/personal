@@ -8,7 +8,7 @@
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   width: 100%;
   height: auto;
   align-items: center;
@@ -141,4 +141,44 @@
   font-size: 22px;
   align-self: center;
   color: inherit;
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  } .project-card .date-section {
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    padding-right: 0px;
+    margin-bottom: 4px;
+    border-right: none;
+    border-bottom: 2px solid var(--background-color);
+  } .project-card:hover .date-section {
+    border-right: none;
+    border-bottom: 2px solid var(--primary-color);
+  } .project-card .date-section .date h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } .project-card .content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 0px;
+  }.project-card .content-section .title h2 {
+    font-size: 32px;
+  } .project-card .content-section .desc p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
 }

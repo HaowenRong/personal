@@ -7,6 +7,9 @@ collections:
   projects:
     output: true
 
+include:
+  - _pages
+
 defaults:
   - scope:
       path: "projects"
