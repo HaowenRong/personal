@@ -1,39 +1,18 @@
 <div class='footer'>
-
-  <div class='pill'>
-    <div class='icon'>
-      <img src="https://api.iconify.design/pajamas:location.svg" alt="Location" width="24" height="24">
-    </div>
-    <div class='label'>
-      <p>Location</p>
-    </div>
-  </div>
-
-  <div class='pill'>
-    <div class='icon'>
-      <img src="https://api.iconify.design/pajamas:mail.svg" alt="Email" width="24" height="24">
-    </div>
-    <div class='label'>
-      <p>Email</p>
-    </div>
-  </div>
-
-  <div class='pill'>
-    <div class='icon'>
-      <img src="https://api.iconify.design/pajamas:github.svg" alt="GitHub" width="24" height="24">
-    </div>
-    <div class='label'>
-      <p>Github</p>
-    </div>
-  </div>
-
-  <div class='pill'>
-    <div class='icon'>
-      <img src="https://api.iconify.design/pajamas:linkedin.svg" alt="LinkedIn" width="24" height="24">
-    </div>
-    <div class='label'>
-      <p>LinkedIn</p>
-    </div>
-  </div>
-  
+  {% include footer-btn.html
+     img   = 'https://api.iconify.design/pajamas:location.svg'
+     label = 'Location'
+  %}
+  {% include footer-btn.html
+     img   = 'https://api.iconify.design/pajamas:mail.svg'
+     label = 'Email'
+  %}
+  {% include footer-btn.html
+     img   = 'https://api.iconify.design/pajamas:github.svg'
+     label = 'Github'
+  %}
+  {% include footer-btn.html
+     img   = 'https://api.iconify.design/pajamas:linkedin.svg'
+     label = 'LinkedIn'
+  %}
 </div>
