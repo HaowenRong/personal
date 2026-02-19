@@ -110,21 +110,21 @@ nav {
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   transform: scale(0.7);
+  gap: 10px;
 } .footer .pill {
   display: flex;
   height: 40px;
+  width: 30%;
   border-radius: 200px;
   padding: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
   gap: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   color: var(--primary-color);
   transition:
     background-color 0.15s ease,
@@ -169,4 +169,9 @@ nav {
   .main {
     margin-top: 30px;
   }
+
+   .footer .pill {
+    width: 100%;
+    flex-wrap: wrap;
+   }
 }

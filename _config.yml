@@ -6,3 +6,10 @@ url: ""
 collections:
   projects:
     output: true
+
+defaults:
+  - scope:
+      path: "projects"
+      type: pages
+    values:
+      permalink: /projects/:basename/
