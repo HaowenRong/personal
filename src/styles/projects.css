@@ -1,4 +1,4 @@
-.section ul {
+.section-content ul {
   list-style: none;
   padding: 0;
   padding-top:    30px;
@@ -43,6 +43,41 @@
   -khtml-user-select:    none;
   -moz-user-select:      none;
   -ms-user-select:       none;
+
+} .project-card--link {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+} .project-card--link .label {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+} .project-card--link .label h2 {
+  all: unset;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 1;
+  color: inherit;
+} .project-card--link .icon {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  transition:
+    padding 0.15s ease,
+    filter 0.15s ease;
+} .project-card--link:hover .icon {
+  padding-left: 20px;
+} .project-card--link:active {
+  padding-left: 20px;
+} .project-card--link .icon img {
+  height: 100%;
+  width: 100%;
+  filter: invert(100%);
+} .project-card--link:hover .icon img {
+  height: 100%;
+  width: 100%;
+  filter: invert(0%);
+
+
 } .project-card:hover {
   cursor: pointer;
   background-color: var(--background-color);
@@ -104,8 +139,8 @@
   height: fit-content;
   width: fit-content;
   padding: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 18px;
   gap: 4px;
   align-items: center;
   justify-content: center;
@@ -122,8 +157,8 @@
   cursor: pointer;
   box-shadow: 0px 0px 10px grey;
 } .back-btn .icon {
-  height: 30px;
-  width: 30px;
+  height: 100%;
+  width: auto;
   transition:
     filter 0.25s ease;
 } .back-btn .icon img {
@@ -154,6 +189,14 @@
     border-radius: 10px;
     background-color: var(--primary-color);
     color: var(--background-color);
+
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease,
+      padding 0.15s ease,
+      transform 0.15s ease,
+      box-shadow 0.15s ease,
+      border 0.25s ease;
   } .project-card .date-section {
     display: flex;
     width: auto;
