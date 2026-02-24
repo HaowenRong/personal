@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/styles/root.css">
+  <link rel="stylesheet" href="/src/styles/navi.css">
   <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/header.css">
   <link rel="stylesheet" href="/src/styles/projects.css">
+  <link rel="stylesheet" href="/src/styles/footer.css">
   <script defer src="/src/scripts/pageLoader.js" type="text/javascript"></script>
   <script defer src="/src/scripts/loadNavi.js" type="text/javascript"></script>
   <title>Personal</title>
@@ -17,10 +20,14 @@
   {% include navi.html %}
 
   <div id='main' class='main'>
-    {% include back-btn.html
-       page = '/projects/'
-    %}
-    {{ content }}
+    <div class='section-background'>
+      <div class='section-content'>
+        {% include back-btn.html
+          page = '/projects/'
+        %}
+        {{ content }}
+      </div>
+    </div>
   </div>
 
 </body>
