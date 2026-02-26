@@ -6,6 +6,9 @@ url: ""
 collections:
   projects:
     output: true
+  main-pages:
+    output: true
+    sort_by: order
 
 include:
   - _pages

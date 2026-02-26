@@ -5,6 +5,13 @@
   box-sizing: border-box;
   padding-bottom: 10px;
   align-items: center;
+  
+  user-select:           none;
+  -webkit-touch-callout: none;
+  -webkit-user-select:   none;
+  -khtml-user-select:    none;
+  -moz-user-select:      none;
+  -ms-user-select:       none;
 } .header h1 {
   all: unset;
   color: inherit;

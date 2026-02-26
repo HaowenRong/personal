@@ -6,14 +6,12 @@
       </h2>
     </a>
     <div id='buttons' class='buttons'>
-      {% include navi-btn.html 
-         label = 'Projects'
-         page  = '/projects'
-      %}
-      {% include navi-btn.html 
-         label = 'About'
-         page  = '/about'
-      %}
+      {% for page in site.main-pages %}
+        {% include navi-btn.html 
+          label = page.title
+          page  = page.permalink
+        %}
+      {% endfor %}
     </div>
   </div>
 </nav>

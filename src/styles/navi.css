@@ -85,5 +85,16 @@ nav {
   nav {
     bottom: 0;
     box-shadow: 0 -4px 10px var(--shadow-color);
+  } nav .bar {
+    display: flex;
+    gap: 4px;
+  } nav .bar .buttons a {
+    width: fit-content;
+    padding: 10px;
+  } nav .bar .buttons a h3 {
+    all: unset;
+    color: inherit;
+    font-size: 18px;
+    font-weight: bold;
   }
 }

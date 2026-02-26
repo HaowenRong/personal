@@ -35,7 +35,7 @@
   padding-right: 20px;
   align-items: end;
 } .img-inline-text img {
-  width: 20svw;
+  width: 17rem;
   height: auto;
   border-radius: 10px;
 } .img-inline-text .text {
@@ -85,6 +85,6 @@ a {
     padding-right: 20px;
     align-items: center;
   } .img-inline-text img {
-    width: 50%;
+    width: 60%;
   }
 }
