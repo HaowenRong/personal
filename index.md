@@ -8,10 +8,10 @@ title: Home
     {% include header.html title="Hi, I'm Haowen" %}
     <div class='content'>
       <div class='img-inline-text'>
-        <img src='/public/assets/DSC08972.jpg' alt="alt">
+        <img src='./public/assets/DSC08972.jpg' alt="alt">
         <div class='text'>
           <p>
-            I’m a software engineer who takes pride in writing clean and reliable code. You can view some of my projects <a href='/projects/'>here</a>. I'm currently based in Liverpool, UK, and open to relocating.
+            I’m a software engineer who takes pride in writing clean and reliable code. You can view some of my projects <a href='{{ site.baseurl }}/projects/'>here</a>. I'm currently based in Liverpool, UK, and open to relocating.
           </p>
           <p>
             I recently earned a masters degree from the University of Liverpool where I studied advanced computer science. Here I worked on several hands-on projects and collaborated with peers to research and develop effective solutions for projects.
