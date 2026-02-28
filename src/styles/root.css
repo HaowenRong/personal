@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Archivo';
-  src: url('../fonts/fonts/Archivo-Regular.woff2') format('woff2');
+  src: url('../styles/fonts/Archivo-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'Archivo';
-  src: url('../fonts/fonts/Archivo-Medium.woff2') format('woff2');
+  src: url('../styles/fonts/Archivo-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'Archivo';
-  src: url('../fonts/fonts/Archivo-Bold.woff2') format('woff2');
+  src: url('../styles/fonts/Archivo-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -39,7 +39,7 @@
 
 @font-face {
   font-family: 'Archivo';
-  src: url('../fonts/fonts/Archivo-ExtraBold.woff2') format('woff2');
+  src: url('../styles/fonts/Archivo-ExtraBold.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
