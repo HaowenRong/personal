@@ -34,6 +34,8 @@
   background-color: var(--accent-color);
   color: var(--background-color);
   box-shadow: 4px 4px 10px grey;
+} .footer .pill--noEffect {
+  pointer-events: none;
 } .footer .pill:hover .icon {
   filter: invert(100%);
 } .footer .pill .icon {
