@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   max-width: var(--content-width);
+  width: 100%;
   box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
@@ -46,13 +47,8 @@
 } .img-inline-text .text {
   display: flex;
   flex-direction: column;
-  font-size: 16px;
   gap: 8px;
   text-align: justify;
-} .img-inline-text .text p {
-  height: auto;
-  width: auto;
-  margin-top: 10px;
 }
 
 .about {
@@ -60,17 +56,21 @@
   flex-direction: column;
   gap: 4px;
   text-align: justify;
-  font-size: 16px;
 }
 
 .main .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  gap: 10px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .main .content p {
   all: unset;
   font-weight: bold;
+  font-size: 16px;
 }
 
 a {

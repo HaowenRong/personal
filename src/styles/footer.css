@@ -16,8 +16,8 @@
   -ms-user-select:       none;
 } .footer .pill {
   display: flex;
-  height: 2rem;
-  width: 22svw;
+  height: 1.8rem;
+  width: 20svw;
   border-radius: 200px;
   padding: 8px;
   gap: 10px;
@@ -57,69 +57,18 @@
 } .footer .pill .label p {
   all: unset;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   align-self: center;
   color: inherit;
 }
 
-
-.contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-} .contact-list h2 {
+.sub-heading {
   all: unset;
   font-weight: 700;
   font-size: 20px;
   align-self: flex-start;
-} .contact-container {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  width: 70%;
-  height: 100px;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 15px;
-  background-color: var(--primary-color);
-} .contact-container .icon {
-  display: flex;
-  height: 100%;
-  width: auto;
-  background-color: var(--background-color);
-  padding: 12px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
-} .contact-container .icon img {
-  width: 100%;
-  height: 100%;
-} .contact-container .content-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} .contact-container .content-section .desc {
-  font-size: 20px;
-  
-  color: var(--background-color);
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
-} .contact-container .content-section .contact {
-  font-size: 18px;
-  font-weight: 500;
-  color: lightgray;
-  width: 100%;
 }
+
 
 @media (max-width: 600px) {
   .footer {
@@ -130,15 +79,5 @@
   } .footer .pill {
     width: 40%;
     transform: scale(0.9);
-  }
-
-  .contact-container {
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-  } .contact-container .icon {
-    width: 16%;
-    height: 16%;
-    padding: 10px;
   }
 }
