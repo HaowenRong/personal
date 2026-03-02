@@ -1,5 +1,14 @@
-<a id='projects-btn' href='{{ site.baseurl }}{{ include.page }}'>
-  <h3>
-    {{ include.label }}
-  </h3>
-</a>
+{% if include.type == 'floating' %}
+  <a href='{{ site.baseurl }}{{ include.page }}' class='navi-btn navi-btn--floating'>
+{% else %}
+  <a href='{{ site.baseurl }}{{ include.page }}' class='navi-btn'>
+{% endif %}
+  {% if include.icon != nil %}
+    <div class='icon'>
+      <img src='{{ include.icon }}' alt=''>
+    </div>
+  {% endif %}
+    <div class='label'>
+      <h3>{{ include.label }}</h3>
+    </div>
+  </a>

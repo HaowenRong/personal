@@ -2,7 +2,7 @@
   --primary-color: rgb(50, 51, 55);
   --background-color: #FEFBF9;
   --accent-color: rgb(73, 114, 190);
-  --shadow-color: rgba(50, 51, 55, 0.2);
+  --shadow-color: grey;
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
 
@@ -12,12 +12,9 @@
   --title2-text: 1.5rem;
   --title3-text: 1.25rem;
   --body-text: 1rem;
-  --btn-text: 1rem
+  --btn-text: 1.125rem
 }
 
-@media (max-width: 600px) {
-
-}
 
 @font-face {
   font-family: 'Archivo';

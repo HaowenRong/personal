@@ -24,7 +24,7 @@
     box-shadow 0.15s ease;
 } .hyperlink-card:hover {
   transform: scale(1.01);
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 10px var(--shadow-color);
 } .hyperlink-card .icon {
   display: flex;
   aspect-ratio: 1 / 1;
@@ -65,7 +65,7 @@
   -ms-user-select:       none;
 } .hyperlink-card .content-section .display-link {
   all: unset;
-  font-size: var(--btn-text);
+  font-size: var(--body-text);
   font-weight: 500;
   color: azure;
   width: 100%;

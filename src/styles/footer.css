@@ -19,7 +19,7 @@
   height: 1.8rem;
   width: 20svw;
   border-radius: 200px;
-  padding: 8px;
+  padding: 12px;
   gap: 10px;
   align-items: center;
   justify-content: start;
@@ -33,7 +33,7 @@
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-color);
-  box-shadow: 4px 4px 10px grey;
+  box-shadow: 4px 4px 10px var(--shadow-color);
 } .footer .pill--noEffect {
   pointer-events: none;
 } .footer .pill:hover .icon {

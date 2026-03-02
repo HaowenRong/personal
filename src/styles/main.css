@@ -34,8 +34,8 @@
   gap: 20px;
   align-items: end;
 } .img-inline-text img {
-  width: 15rem;
-  height: auto;
+  width: 14rem;
+  height: 14rem;
   border-radius: 10px;
 
   user-select:           none;
@@ -54,7 +54,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
   text-align: justify;
 }
 
@@ -69,9 +69,9 @@
 }
 .main .content p {
   all: unset;
-  font-weight: bold;
+  font-weight: 500;
   font-size: var(--body-text);
-  line-height: 1.4;
+  line-height: 1.2;
   width: 100%;
 }
 
@@ -97,7 +97,5 @@ a {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-  } .img-inline-text img {
-    width: 60%;
   }
 }
