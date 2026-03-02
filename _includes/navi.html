@@ -5,8 +5,9 @@
       <h2>Rong</h2>
     </a>
     <div id='buttons' class='buttons'>
-      {% for page in site.main-pages %}
-        {% include navi-btn.html 
+      {% assign sortedPages = site.main-pages | sort: 'order' %}
+      {% for page in sortedPages %}
+        {% include navi-btn.html
           label = page.title
           page  = page.permalink
         %}

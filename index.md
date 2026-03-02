@@ -8,10 +8,10 @@ title: Home
     {% include header.html title="Hi, I'm Haowen" %}
     <div class='content'>
       <div class='img-inline-text'>
-        <img src='./public/assets/DSC08972.jpg' alt="alt">
+        <img src='./public/assets/DSC08972.jpg' fetchpriority="high" alt="alt">
         <div class='text'>
           <p>
-            I’m a software engineer who takes pride in writing clean and reliable code. You can view some of my projects <a href='{{ site.baseurl }}/projects/'>here</a>. I'm currently based in Liverpool, UK, and open to relocating.
+            I’m a software engineer who takes pride in writing clean and reliable code. You can view some of my <a href='{{ site.baseurl }}/projects/'>projects here</a>. I'm currently based in Liverpool, UK, and open to relocating.
           </p>
           <p>
             I recently earned a masters degree from the University of Liverpool where I studied advanced computer science. Here I worked on several hands-on projects and collaborated with peers to research and develop effective solutions for projects.
@@ -54,9 +54,14 @@ title: Home
         <p>
           Welcome to my website! This is a site I made to share more about myself and showcase some of my projects.
         </p>
-        <br>
         <p>
           Given the relatively small scope of this website, I’ve kept the design simple, opting to build it as a static and JavaScript-free website to optimise load times and page weight. It’s currently hosted on GitHub pages and built using Jekyll, leveraging GitHub pages native integration of jekyll, which allows for a very streamlined deployment.
+        </p>
+        <p>
+          Font: Archivo, from <a href='https://www.fontshare.com/fonts/archivo'>Fontshare</a>.
+        </p>
+        <p>
+          Icons: Gitlab SVGs, from <a href='https://icones.js.org/collection/pajamas'>Icones</a>.
         </p>
       </div>
     </div>
