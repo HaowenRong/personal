@@ -34,7 +34,7 @@
   gap: 20px;
   align-items: end;
 } .img-inline-text img {
-  width: 17rem;
+  width: 15rem;
   height: auto;
   border-radius: 10px;
 
@@ -70,7 +70,9 @@
 .main .content p {
   all: unset;
   font-weight: bold;
-  font-size: 16px;
+  font-size: var(--body-text);
+  line-height: 1.4;
+  width: 100%;
 }
 
 a {
@@ -87,7 +89,7 @@ a {
     margin-top: 0px;
     margin-bottom: 84px;
   } .section-content {
-    width: auto;
+    width: 100%;
     max-width: var(--content-width);
   }
 

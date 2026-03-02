@@ -3,7 +3,6 @@
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  padding-bottom: 10px;
   align-items: center;
   
   user-select:           none;
@@ -15,7 +14,7 @@
 } .header h1 {
   all: unset;
   color: inherit;
-  font-size: 42px;
+  font-size: var(--title1-text);
   font-weight: 800;
   color: var(--primary-color);
   text-wrap: nowrap;

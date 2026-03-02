@@ -7,6 +7,12 @@
   --link-color: #1c4dff;
 
   --content-width: 1000px;
+  
+  --title1-text: 2rem;
+  --title2-text: 1.5rem;
+  --title3-text: 1.25rem;
+  --body-text: 1rem;
+  --btn-text: 1rem
 }
 
 @media (max-width: 600px) {

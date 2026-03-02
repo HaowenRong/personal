@@ -57,7 +57,7 @@
 } .footer .pill .label p {
   all: unset;
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--btn-text);
   align-self: center;
   color: inherit;
 }
@@ -65,7 +65,7 @@
 .sub-heading {
   all: unset;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--body-text);
   align-self: flex-start;
 }
 

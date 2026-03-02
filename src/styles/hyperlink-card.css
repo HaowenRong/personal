@@ -53,7 +53,7 @@
 } .hyperlink-card .content-section .desc {
   all: unset;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--title3-text);
   line-height: 1.4;
   
   color: var(--background-color);
@@ -65,7 +65,7 @@
   -ms-user-select:       none;
 } .hyperlink-card .content-section .display-link {
   all: unset;
-  font-size: 16px;
+  font-size: var(--btn-text);
   font-weight: 500;
   color: azure;
   width: 100%;
