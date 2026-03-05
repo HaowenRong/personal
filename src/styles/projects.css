@@ -62,7 +62,7 @@
 } .project-card .date-section .date {
   width: auto;
   height: auto;
-} .project-card .date-section .date h3 {
+} .project-card .date-section .date h2 {
   all: unset;
   font-size: var(--title2-text);
   font-weight: 600;
@@ -81,7 +81,7 @@
   justify-content: space-between;
 } .project-card .content-section .title h2 {
   all: unset;
-  font-size: var(--title1-text);
+  font-size: var(--title2-text);
   font-weight: bolder;
   line-height: 1;
   color: inherit;
@@ -118,8 +118,6 @@
     padding 0.15s ease,
     filter 0.15s ease;
 } .project-card--link:hover .icon {
-  padding-left: 20px;
-} .project-card--link:active {
   padding-left: 20px;
 } .project-card--link .icon img {
   height: 100%;
@@ -178,6 +176,5 @@
     padding-left: 0px;
   } .project-card .content-section .desc p {
     font-size: var(--body-text);
-    line-height: 1.4;
   }
 }

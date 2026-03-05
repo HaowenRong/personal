@@ -6,9 +6,12 @@
   height: fit-content;
   width: fit-content;
   padding: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
+  z-index: 1;
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
@@ -48,6 +51,7 @@
 
 .navi-btn--floating {
   margin-left: -10px;
+  background-color: var(--background-color);
 }
 
 
