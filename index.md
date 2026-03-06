@@ -29,7 +29,8 @@ title: Home
   <div class='section-content'>
     {% include header.html title='Projects' %}
     <ul id='projects-container' class='projects-container'>
-      {% for project in site.projects limit: 3 %}
+      {% assign sortedPojects = site.projects | sort: 'year' | reverse %}
+      {% for project in sortedPojects limit: 3 %}
       <li>
         {% include project-card.html
           title = project.title
@@ -55,7 +56,7 @@ title: Home
           Welcome to my website! This is a site I made to share more about myself and showcase some of my projects.
         </p>
         <p>
-          Given the relatively small scope of this website, I’ve kept the design simple, opting to build it as a static and JavaScript-free website to optimise load times and page weight. It’s currently hosted on GitHub pages and built using Jekyll, leveraging GitHub pages native integration of jekyll, which allows for a very streamlined deployment.
+          Given the relatively small scope of this website, I’ve kept the design simple, opting to build it as a static and JavaScript-free website to optimise load times and page weight. It’s currently hosted on GitHub pages and built using Jekyll, leveraging GitHub pages native integration of jekyll. <a href='{{ site.baseurl }}/projects/project1'>View in depth here.</a>
         </p>
         <p>
           Font: Archivo, from <a href='https://www.fontshare.com/fonts/archivo'>Fontshare</a>.

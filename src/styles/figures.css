@@ -28,6 +28,10 @@ video {
 } .figure:focus-within {
   max-width: 100%;
   width: 300%;
+} .figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 } .content .figure p {
   text-align: center;
   
@@ -53,5 +57,7 @@ video {
     max-width: 100%;
   } .figure:hover {
     width: 100%;
+    cursor: none;
+    background-color: var(--background-color);
   }
 }
