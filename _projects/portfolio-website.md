@@ -10,7 +10,7 @@ permalink: /projects/:title/
   <div class='section-content'>
     <div class='content'>
       <p>
-        The website you’re currently viewing this on. I wanted a personal platform where I could share a bit about myself and show some of my projects. I felt that Linked in was too formal and rigid, and that GitHub too technical, so I decided to build my own website that I could fully customise and express myself.
+        The website you’re currently viewing this on. I wanted a personal platform where I could share a bit about myself and show some of my projects. I felt that Linkedin was too formal and rigid, and that GitHub too technical, so I decided to build my own website that I could fully customise and express myself.
       </p>
       <h3 class='sub-heading'>Technologies</h3>
       <p>

@@ -22,8 +22,8 @@ order: 2
           include hyperlink-card.html
           img='https://api.iconify.design/pajamas:linkedin.svg'
           method='Connect with me on Linkedin'
-          display-link='linkedin.com/in/alex-rong-71a808225'
-          link='https://www.linkedin.com/in/alex-rong-71a808225'
+          display-link='https://www.linkedin.com/in/h-rong'
+          link='https://www.linkedin.com/in/h-rong'
         %}
         {%
           include hyperlink-card.html
