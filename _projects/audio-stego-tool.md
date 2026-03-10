@@ -4,6 +4,7 @@ title: Audio Stego Tool
 desc: A multi-platform desktop application enabling users to covertly embed and extract data within audio files, built with Python and GTK-4 graphical library.
 year: 2025
 permalink: /projects/:title/
+tags: [Python, GTK, Cybersecurity, Steganography, GUI, CLI]
 ---
 
 <div class='section-background'>
@@ -47,12 +48,19 @@ permalink: /projects/:title/
 </div>
 <div class='section-background'>
   <div class='section-content'>
-    {%
-      include hyperlink-card.html
-      img='https://api.iconify.design/pajamas:github.svg'
-      method='View on GitHub'
-      display-link='github.com/HaowenRong/audio-stego-tool'
-      link='https://www.github.com/HaowenRong/audio-stego-tool'
-    %}
+    <div class='content'>
+      {%
+        include hyperlink-card.html
+        img='https://api.iconify.design/pajamas:github.svg'
+        method='View on GitHub'
+        display-link='github.com/HaowenRong/audio-stego-tool'
+        link='https://www.github.com/HaowenRong/audio-stego-tool'
+      %}
+      <p>Tags: 
+        {% for tag in page.tags %}
+          {{ tag }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </p>
+    </div>
   </div>
 </div>

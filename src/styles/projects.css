@@ -20,12 +20,15 @@
 
 .project-card {
   all: unset;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-areas:
+  "date content";
+  grid-template-columns: auto 1fr;
   justify-content: center;
   align-items: center;
   width: 70%;
-  padding: 40px;
+  box-sizing:content-box;
+  padding: 30px;
   border-radius: 10px;
   background-color: var(--primary-color);
   color: var(--background-color);
@@ -51,6 +54,7 @@
   transform: scale(1.01);
   box-shadow: 4px 4px 10px var(--shadow-color);
 } .project-card .date-section {
+  grid-area: date;
   display: flex;
   width: auto;
   height: 100%;
@@ -69,11 +73,13 @@
   line-height: 1;
   color: inherit;
 } .project-card .content-section {
+  grid-area: content;
   display: flex;
   flex-direction: column;
   gap: 4px;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   padding-left: 20px;
 } .project-card .content-section .title {
   display: flex;
@@ -90,6 +96,13 @@
   align-items: start;
   text-align: justify;
 } .project-card .content-section .desc p {
+  all: unset;
+  font-weight: 500;
+  color: inherit;
+  font-size: var(--body-text);
+} .project-card  .content-section .tags-section {
+  padding-top: 10px;
+} .project-card  .content-section .tags-section p {
   all: unset;
   font-weight: 500;
   color: inherit;

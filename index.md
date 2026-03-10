@@ -37,6 +37,7 @@ title: Home
           desc  = project.desc
           year  = project.year
           page  = project.url
+          tags  = project.tags
         %}
       </li>
       {% endfor %}

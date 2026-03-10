@@ -17,6 +17,7 @@ order: 1
           desc  = project.desc
           year  = project.year
           page  = project.url
+          tags  = project.tags
         %}
       </li>
       {% endfor %}
