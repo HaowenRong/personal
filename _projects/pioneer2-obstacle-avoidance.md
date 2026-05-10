@@ -65,22 +65,3 @@ tags: [Java, Robotics, Obstacle Avoidance, Simulation]
     </div>
   </div>
 </div>
-
-<div class='section-background'>
-  <div class='section-content'>
-    <div class='content'>
-      {%
-        include hyperlink-card.html
-        img='https://api.iconify.design/pajamas:github.svg'
-        method='View on GitHub'
-        display-link='github.com/HaowenRong'
-        link='https://www.github.com/HaowenRong'
-      %}
-      <p>Tags: 
-        {% for tag in page.tags %}
-          {{ tag }}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </p>
-    </div>
-  </div>
-</div>

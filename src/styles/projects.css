@@ -142,6 +142,14 @@
   filter: invert(0%);
 }
 
+.project-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
 @media (max-width: 600px) {
   .project-card {
     all: unset;
@@ -189,5 +197,9 @@
     padding-left: 0px;
   } .project-card .content-section .desc p {
     font-size: var(--body-text);
+  }
+
+  .project-links {
+    flex-direction: column;
   }
 }
