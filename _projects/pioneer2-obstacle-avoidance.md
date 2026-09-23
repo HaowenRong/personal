@@ -2,9 +2,10 @@
 layout: project
 title: Pioneer 2 Obstacle Avoidance
 desc: Java-based implementations of obstacle avoidance algorithms for the Pioneer 2-DX robot in Webots simulations.
-year: 2024
+year: 2025
 permalink: /projects/:title/
 tags: [Java, Robotics, Obstacle Avoidance, Simulation]
+icon: 'icons/SolarBranchingPathsUpOutline.svg'
 ---
 
 <div class='section-background'>

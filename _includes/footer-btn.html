@@ -1,6 +1,9 @@
 <a class='pill' href='{{ include.link }}' target='_blank'>
   <div class='icon'>
-    <img src='{{ include.img }}' alt="Location" width="24" height="24">
+    {% if include.icon %}
+      {% include {{ include.icon }} %}
+    {% else %}
+    {% endif %}
   </div>
   <div class='label'>
     <p>{{ include.label }}</p>

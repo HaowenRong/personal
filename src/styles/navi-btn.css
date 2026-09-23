@@ -44,7 +44,7 @@
   all: unset;
   color: inherit;
   font-size: var(--btn-text);
-  font-weight: bold;
+  font-weight: var(--btn-weight);
   padding-left: 8px;
   padding-right: 8px;
 }

@@ -1,5 +1,9 @@
 <a class='hyperlink-card' href='{{ include.link }}' target='_blank'>
   <div class='icon'>
+    {% if include.icon %}
+      {% include {{ include.icon }} %}
+    {% else %}
+    {% endif %}
     <img src='{{ include.img }}' alt=''>
   </div>
   <div class='content-section'>
@@ -11,6 +15,6 @@
     </h3>
   </div>
   <div class='action-icon'>
-    <img src="https://api.iconify.design/pajamas:external-link.svg" alt="">
+    {% include icons/PajamasExternalLink.svg %}
   </div>
 </a>

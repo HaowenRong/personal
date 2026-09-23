@@ -13,21 +13,21 @@ order: 2
       <div class='hyperlink-card-list'>
         {%
           include hyperlink-card.html
-          img='https://api.iconify.design/pajamas:mail.svg'
+          icon='icons/PajamasMail.svg'
           method='Send me an email'
           display-link='HaowenRong@protonmail.com'
           link='mailto:HaowenRong@protonmail.com'
         %}
         {%
           include hyperlink-card.html
-          img='https://api.iconify.design/pajamas:linkedin.svg'
+          icon='icons/PajamasLinkedin.svg'
           method='Connect with me on Linkedin'
           display-link='https://www.linkedin.com/in/h-rong'
           link='https://www.linkedin.com/in/h-rong'
         %}
         {%
           include hyperlink-card.html
-          img='https://api.iconify.design/pajamas:github.svg'
+          icon='icons/PajamasGithub.svg'
           method='Follow me on github to see my current projects'
           display-link='github.com/HaowenRong'
           link='https://www.github.com/HaowenRong'

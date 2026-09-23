@@ -2,9 +2,10 @@
 layout: project
 title: Audio Stego Tool
 desc: A multi-platform desktop application enabling users to covertly embed and extract data within audio files, built with Python and GTK-4 graphical library.
-year: 2025
+year: 2026
 permalink: /projects/:title/
 tags: [Python, GTK, Cybersecurity, Steganography, GUI, CLI]
+icon: 'icons/SolarSoundwaveBroken.svg'
 ---
 
 <div class='section-background'>

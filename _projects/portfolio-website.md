@@ -1,10 +1,11 @@
 ---
 layout: project
-title: Portfolio Website
+title: Personal Portfolio Website
 desc: A responsive, lightweight website build with Jekyll, and seamlessly hosted on GitHub Pages.
 year: 2025
 permalink: /projects/:title/
 tags: [Web Design, HTML, CSS, Jekyll, GUI]
+icon: 'icons/PixelBriefcaseSolid.svg'
 ---
 
 <div class='section-background'>

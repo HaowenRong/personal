@@ -56,6 +56,8 @@
 } .project-card .date-section {
   grid-area: date;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: auto;
   height: 100%;
   align-items: center;
@@ -72,6 +74,9 @@
   font-weight: 600;
   line-height: 1;
   color: inherit;
+} .project-card .date-section svg {
+  width: 100%;
+  height: auto;
 } .project-card .content-section {
   grid-area: content;
   display: flex;
@@ -100,13 +105,22 @@
   font-weight: 500;
   color: inherit;
   font-size: var(--body-text);
-} .project-card  .content-section .tags-section {
+} .project-card .content-section .tags-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   padding-top: 10px;
-} .project-card  .content-section .tags-section p {
+} .project-card .content-section .tags-section p {
   all: unset;
-  font-weight: 500;
-  color: inherit;
+  font-weight: 600;
   font-size: var(--body-text);
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-radius: 100px;
 }
 
 .project-card--link {
@@ -125,21 +139,17 @@
   line-height: 1;
   color: inherit;
 } .project-card--link .icon {
-  height: 100%;
+  height: 24px;
+  width:  24px;
   aspect-ratio: 1 / 1;
   transition:
     padding 0.15s ease,
     filter 0.15s ease;
 } .project-card--link:hover .icon {
   padding-left: 20px;
-} .project-card--link .icon img {
-  height: 100%;
-  width: 100%;
-  filter: invert(100%);
-} .project-card--link:hover .icon img {
-  height: 100%;
-  width: 100%;
-  filter: invert(0%);
+} .project-card--link .icon svg {
+    height: 100%;
+    width:  100%;
 }
 
 .project-links {
@@ -161,6 +171,7 @@
     width: 100%;
     padding: 20px;
     border-radius: 10px;
+    gap: 10px;
     background-color: var(--primary-color);
     color: var(--background-color);
 
@@ -178,17 +189,19 @@
     gap: 20px;
     padding: 10px;
   } .project-card .date-section {
-    display: flex;
-    width: auto;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
     height: 100%;
     align-items: center;
     padding-right: 0px;
     margin-bottom: 4px;
     border-right: none;
-    border-bottom: 2px solid var(--background-color);
+  } .project-card .date-section svg {
+    width: 36px;
   } .project-card:hover .date-section {
     border-right: none;
-    border-bottom: 2px solid var(--primary-color);
   } .project-card .date-section .date h3 {
     font-size: var(--title3-text);
     padding-left: 10px;

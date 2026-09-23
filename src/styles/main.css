@@ -1,7 +1,7 @@
 
 .main {
   display: flex;
-  margin-top: 84px;
+  margin-top: 80px;
   margin-bottom: 40px;
   flex-direction: column;
   height: auto;
@@ -17,7 +17,7 @@
   padding-top: 20px;
   width: 100%;
 } .section-background--alternative {
-  background-color: rgb(241, 237, 232);
+  background-color: var(--background-color2);
 } .section-content {
   display: flex;
   flex-direction: column;
@@ -32,9 +32,8 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  align-items: end;
 } .img-inline-text img {
-  width: 14rem;
+  width:  14rem;
   height: 14rem;
   border-radius: 10px;
 
@@ -64,7 +63,7 @@
 }
 .main .content p {
   all: unset;
-  font-weight: 500;
+  font-weight: var(--body-weight);
   font-size: var(--body-text);
   width: 100%;
 }
@@ -76,7 +75,7 @@
   width: 100%;
 } .main .content li {
   font-size: var(--body-text);
-  font-weight: 500;
+  font-weight: var(--body-weight);
   margin: 10px;
 }
 

@@ -1,19 +1,23 @@
 :root {
   --primary-color: rgb(50, 51, 55);
   --background-color: #FEFBF9;
+  --background-color2: rgb(232, 233, 241);
   --accent-color: rgb(73, 114, 190);
   --shadow-color: grey;
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
   --highlight-color: #E4E1E0;
 
-  --content-width: 1000px;
+  --content-width: 1200px;
   
-  --title1-text: 2rem;
+  --title1-text: 1.8rem;
+  --title1-weight: 600;
   --title2-text: 1.5rem;
   --title3-text: 1.25rem;
   --body-text: 1rem;
-  --btn-text: 1.125rem
+  --body-weight: 500;
+  --btn-text: 1.2rem;
+  --btn-weight: 600;
 }
 
 body {

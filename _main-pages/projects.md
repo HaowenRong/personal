@@ -18,6 +18,7 @@ order: 1
           year  = project.year
           page  = project.url
           tags  = project.tags
+          icon  = project.icon
         %}
       </li>
       {% endfor %}

@@ -16,7 +16,7 @@
   all: unset;
   color: inherit;
   font-size: var(--title1-text);
-  font-weight: 800;
+  font-weight: var(--title1-weight);
   color: var(--primary-color);
 } .header hr {
   flex: 1;
@@ -28,9 +28,4 @@
 }
 
 @media (max-width: 600px) {
-  .header {
-    border-bottom: 2px solid var(--primary-color);
-  } .header hr {
-    display: none;
-  }
 }

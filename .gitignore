@@ -2,3 +2,4 @@ todo.md
 Gemfile.lock
 _site
 Gemfile
+vendor/bundle

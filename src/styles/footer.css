@@ -19,7 +19,7 @@
   height: 1.6rem;
   width: 18svw;
   border-radius: 200px;
-  padding: 8px;
+  padding: 12px;
   gap: 10px;
   align-items: center;
   justify-content: start;
@@ -36,15 +36,13 @@
   box-shadow: 4px 4px 10px var(--shadow-color);
 } .footer .pill--noEffect {
   pointer-events: none;
-} .footer .pill:hover .icon {
-  filter: invert(100%);
 } .footer .pill .icon {
   flex-shrink: 0;
   height: 100%;
   width: auto;
   transition:
     filter 0.25s ease;
-} .footer .pill .icon img {
+} .footer .pill .icon svg {
   width: 100%;
   height: 100%;
 } .footer .pill .label {
@@ -55,8 +53,8 @@
   align-items: center;
 } .footer .pill .label p {
   all: unset;
-  font-weight: 600;
   font-size: var(--btn-text);
+  font-weight: var(--btn-weight);
   align-self: center;
   color: inherit;
 }
@@ -76,8 +74,6 @@
   } .footer .pill {
     align-items: center;
     width: fit-content;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }  .footer .pill .label {
     display: none;
   }  .footer .pill .label--location {

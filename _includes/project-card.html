@@ -1,6 +1,10 @@
 <a href='{{ site.baseurl }}{{ include.page }}' class='project-card'>
   
   <div class='date-section'>
+    {% if include.icon %}
+        {% include {{ include.icon }} %}
+    {% else %}
+    {% endif %}
     <div class='date'>
       <h2 id='date'>{{ include.year }}</h2>
     </div>
@@ -14,11 +18,9 @@
       <p id='desc'>{{ include.desc }}</p>
     </div>
     <div class='tags-section'>
-      <p>Tags: 
-        {% for tag in include.tags limit:5 %}
-          {{ tag }}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </p>
+      {% for tag in include.tags limit:5 %}
+        <p class='tag'>{{ tag }}</p>
+      {% endfor %}
     </div>
   </div>
 </a>

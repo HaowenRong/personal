@@ -1,10 +1,12 @@
 ---
 layout: project
-title: Aleidoscope Photography Gallery
-desc: A website to organise and showcase some of my photography projects.
+title: Aleidoscope Photography Portfolio
+desc: A responsive web application to organise and showcase my photography projects.
 year: 2026
 permalink: /projects/:title/
 tags: [Next.js, Vercel, Supabase, Web Development]
+icon: 'icons/PixelCamera.svg'
+
 ---
 
 
