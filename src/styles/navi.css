@@ -4,15 +4,16 @@ nav {
   height: 80px;
   width: 100%;
   justify-content: center;
-  box-shadow: 0 0px 10px var(--shadow-color);
+  border-bottom: var(--border-main);
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
 } nav .bar {
   display: flex;
   gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 1rem;
+  border-left: var(--border-main);
+  border-right: var(--border-main);
   box-sizing: border-box;
   width: var(--content-width);
   justify-content: space-between;
@@ -23,7 +24,6 @@ nav {
   flex-direction: column;
   height: 100%;
   width: auto;
-  margin-left: 20px;
   text-align: center;
   justify-content: center;
   align-items: start;

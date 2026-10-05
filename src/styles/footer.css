@@ -1,23 +1,31 @@
-.footer {
+.footer-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2%;
   width: 100%;
+  justify-content: center;
+  height: auto;
+  border-top: var(--border-main);
+  box-sizing: border-box;
+  align-items: center;
+  
+  user-select: none;
+} .footer {
+  max-width: calc(var(--content-width) - 2px);
+  width: 100%;
+  border-left: var(--border-main);
+  border-right: var(--border-main);
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2%;
+  width: 100%;
   
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
+  user-select: none;
 } .footer .pill {
   display: flex;
   height: 1.6rem;
-  width: 18svw;
+  width: fit-content;
   border-radius: 200px;
   padding: 12px;
   gap: 10px;

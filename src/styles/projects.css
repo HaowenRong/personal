@@ -1,14 +1,12 @@
 .section-content ul {
   list-style: none;
   padding: 0;
-  padding-top:    30px;
-  padding-bottom: 30px;
   margin: 0;
 }
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
   width: 100%;
   height: auto;
   align-items: center;
@@ -26,7 +24,7 @@
   grid-template-columns: auto 1fr;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   box-sizing:content-box;
   padding: 30px;
   border-radius: 10px;
@@ -40,13 +38,7 @@
     box-shadow 0.15s ease,
     border 0.25s ease;
   
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
-
+  user-select: none;
 } .project-card:hover {
   cursor: pointer;
   background-color: var(--background-color);
@@ -93,8 +85,7 @@
 } .project-card .content-section .title h2 {
   all: unset;
   font-size: var(--title2-text);
-  font-weight: bolder;
-  line-height: 1;
+  font-weight: 600;
   color: inherit;
 } .project-card .content-section .desc {
   display: flex;
@@ -113,8 +104,8 @@
 } .project-card .content-section .tags-section p {
   all: unset;
   font-weight: 600;
-  font-size: var(--body-text);
-  color: var(--primary-color);
+  font-size: var(--body-tag);
+  color: var(--primary-color-subtle);
   background-color: var(--background-color);
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -126,8 +117,10 @@
 .project-card--link {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 1rem;
   padding: 10px;
+  margin-left:  3rem;
+  margin-right: 3rem;
 } .project-card--link .label {
   display: flex;
   justify-content: center;
@@ -146,7 +139,7 @@
     padding 0.15s ease,
     filter 0.15s ease;
 } .project-card--link:hover .icon {
-  padding-left: 20px;
+  padding-left: 2rem;
 } .project-card--link .icon svg {
     height: 100%;
     width:  100%;

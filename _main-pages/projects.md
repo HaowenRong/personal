@@ -6,8 +6,8 @@ order: 1
 ---
 
 <div class='section-background'>
+  {% include header.html title='Projects' %}
   <div class='section-content'>
-    {% include header.html title='Projects' %}
     <ul id='projects-container' class='projects-container'>
       {% assign sortedPojects = site.projects | sort: 'year' | reverse %}
       {% for project in sortedPojects %}
@@ -23,6 +23,6 @@ order: 1
       </li>
       {% endfor %}
     </ul>
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
 </div>

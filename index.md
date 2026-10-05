@@ -4,10 +4,11 @@ title: Home
 ---
 
 <div class='section-background'>
+  {% include header.html title="Hi, I'm Haowen" %}
   <div class='section-content'>
-    {% include header.html title="Hi, I'm Haowen" %}
     <div class='content'>
       <div class='img-inline-text'>
+        <img src='./public/assets/header.jpg' fetchpriority="high" alt="alt">
         <div class='text'>
           <p>
             I’m a software engineer based in Liverpool who takes pride in building clean and reliable code bases.
@@ -22,15 +23,14 @@ title: Home
             When I’m not working on a project, you may find me hiking, doing photography, or practising sports such as badminton or archery.
           </p>
         </div>
-        <img src='./public/assets/DSC08972.jpg' fetchpriority="high" alt="alt">
       </div>
     </div>
   </div>
 </div>
 
 <div class='section-background section-background--alternative'>
+  {% include header.html title='My Projects' %}
   <div class='section-content'>
-    {% include header.html title='My Projects' %}
     <ul id='projects-container' class='projects-container'>
       {% assign sortedPojects = site.projects | sort: 'year' | reverse %}
       {% for project in sortedPojects limit: 3 %}
@@ -53,8 +53,8 @@ title: Home
 </div>
 
 <div class='section-background'>
+  {% include header.html title='About this site' %}
   <div class='section-content'>
-    {% include header.html title='About this site' %}
     <div class='content'>
       <div class='about'>
         <p>
@@ -68,6 +68,6 @@ title: Home
         </p>
       </div>
     </div>
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
 </div>

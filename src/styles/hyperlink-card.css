@@ -34,12 +34,7 @@
   padding: 12px;
   box-sizing: border-box;
   border-radius: 8px;
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
+  user-select: none;
 } .hyperlink-card .icon svg {
   width: 100%;
   height: 100%;
@@ -57,17 +52,12 @@
   font-size: var(--title3-text);
   
   color: var(--background-color);
-  user-select:           none;
-  -webkit-touch-callout: none;
-  -webkit-user-select:   none;
-  -khtml-user-select:    none;
-  -moz-user-select:      none;
-  -ms-user-select:       none;
+  user-select: none;
 } .hyperlink-card .content-section .display-link {
   all: unset;
   font-size: var(--body-text);
   font-weight: 500;
-  color: azure;
+  color: var(--background-color2);
   width: 100%;
 } .hyperlink-card .action-icon {
   display: flex;

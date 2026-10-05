@@ -1,23 +1,27 @@
 :root {
   --primary-color: rgb(50, 51, 55);
+  --primary-color-subtle: rgba(50, 51, 55, 0.98);
   --background-color: #FEFBF9;
-  --background-color2: rgb(232, 233, 241);
+  --background-color2: #f0edeb;
   --accent-color: rgb(73, 114, 190);
   --shadow-color: grey;
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
   --highlight-color: #E4E1E0;
 
-  --content-width: 1200px;
+  --content-width: 1000px;
+
+  --border-main: 1px solid rgba(112, 128, 144, 0.15);
   
-  --title1-text: 1.8rem;
+  --title1-text: 2.2rem;
   --title1-weight: 600;
   --title2-text: 1.5rem;
   --title3-text: 1.25rem;
-  --body-text: 1rem;
+  --body-text: 1.125rem;
   --body-weight: 500;
   --btn-text: 1.2rem;
   --btn-weight: 600;
+  --body-tag: 0.875rem;
 }
 
 body {
