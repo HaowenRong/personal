@@ -6,10 +6,9 @@ order: 2
 ---
 
 <div class='section-background'>
-  {% include header.html title='Contact' %}
+  {% include header.html title='Contact' desc="If you'd like to get in touch, feel free to:" %}
   <div class='section-content'>
     <div class='content'>
-      <h2 class='sub-heading'>If you'd like to get in touch, feel free to:</h2>
       <div class='hyperlink-card-list'>
         {%
           include hyperlink-card.html

@@ -29,10 +29,10 @@ title: Home
 </div>
 
 <div class='section-background section-background--alternative'>
-  {% include header.html title='My Projects' %}
+  {% include header.html title='My Latest Projects'%}
   <div class='section-content'>
     <ul id='projects-container' class='projects-container'>
-      {% assign sortedPojects = site.projects | sort: 'year' | reverse %}
+      {% assign sortedPojects = site.projects | sort: 'project-no' | reverse %}
       {% for project in sortedPojects limit: 3 %}
       <li>
         {% include project-card.html

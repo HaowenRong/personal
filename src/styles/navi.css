@@ -6,8 +6,8 @@ nav {
   justify-content: center;
   border-bottom: var(--border-main);
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
+  background-color: var(--navi-color);
+  backdrop-filter: blur(50px);
 } nav .bar {
   display: flex;
   gap: 10px;

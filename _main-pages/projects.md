@@ -6,10 +6,10 @@ order: 1
 ---
 
 <div class='section-background'>
-  {% include header.html title='Projects' %}
+  {% include header.html title='Projects' desc="Some projects that I've worked on" %}
   <div class='section-content'>
     <ul id='projects-container' class='projects-container'>
-      {% assign sortedPojects = site.projects | sort: 'year' | reverse %}
+      {% assign sortedPojects = site.projects | sort: 'project-no' | reverse %}
       {% for project in sortedPojects %}
       <li>
         {% include project-card.html

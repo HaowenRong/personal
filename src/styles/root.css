@@ -1,10 +1,11 @@
 :root {
   --primary-color: rgb(50, 51, 55);
   --primary-color-subtle: rgba(50, 51, 55, 0.98);
-  --background-color: #FEFBF9;
+  --navi-color: rgb(252, 250, 248. 0.3);
+  --background-color: #FCFAF8;
   --background-color2: #f0edeb;
   --accent-color: rgb(73, 114, 190);
-  --shadow-color: grey;
+  --shadow-color: rgba(50, 51, 55, 0.3);
   --error-color: #FF1C1C;
   --link-color: #1c4dff;
   --highlight-color: #E4E1E0;
@@ -16,6 +17,7 @@
   --title1-text: 2.2rem;
   --title1-weight: 600;
   --title2-text: 1.5rem;
+  --title1-weight: 500;
   --title3-text: 1.25rem;
   --body-text: 1.125rem;
   --body-weight: 500;

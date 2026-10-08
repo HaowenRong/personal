@@ -1,5 +1,6 @@
 ---
 layout: project
+project-no: 4
 title: Aleidoscope Photography Portfolio
 desc: A responsive web application to organise and showcase my photography projects.
 year: 2026
