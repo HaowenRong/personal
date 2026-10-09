@@ -6,7 +6,7 @@ desc: Java-based implementations of obstacle avoidance algorithms for the Pionee
 year: 2025
 permalink: /projects/:title/
 tags: [Java, Robotics, Obstacle Avoidance, Simulation]
-icon: 'icons/SolarBranchingPathsUpOutline.svg'
+icon: 'icons/LsiconPickingPathOutline.svg'
 ---
 
 <div class='section-background'>
